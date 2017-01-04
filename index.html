@@ -1,0 +1,47 @@
+<!doctype html><html lang="en"><head><title>LambStatus</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"><link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue_grey-amber.min.css"><script src="https://code.getmdl.io/1.2.1/material.min.js"></script><script>try {
+      x = new(this.XMLHttpRequest || ActiveXObject)('MSXML2.XMLHTTP.3.0');
+      x.open('GET', 'settings.json', 1);
+      x.onreadystatechange = function () {
+        if (x.readyState === 4 && x.status === 200) {
+          j = JSON.parse(x.responseText);
+          __LAMBSTATUS_API_URL__ = j.InvocationURL;
+          __LAMBSTATUS_STATUS_PAGE_URL__ = j.StatusPageURL;
+          __LAMBSTATUS_SERVICE_NAME__ = j.ServiceName;
+          __LAMBSTATUS_USER_POOL_ID__ = j.UserPoolID;
+          __LAMBSTATUS_CLIENT_ID__ = j.ClientID;
+        }
+      };
+      x.send()
+    } catch (e) {
+      window.console && console.log(e);
+    }</script><script src="dialog-polyfill.js"></script><link rel="stylesheet" type="text/css" href="dialog-polyfill.css"><link rel="shortcut icon" href="favicon.ico"><link href="app.22d02c98dadeea0ca8be35f0689e0b42.css" rel="stylesheet"></head><!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafrex/spa-github-pages
+      // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+      // ----------------------------------------------------------------------
+      // This script checks to see if a redirect is present in the query string
+      // and converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search) {
+          var q = {};
+          l.search.slice(1).split('&').forEach(function(v) {
+            var a = v.split('=');
+            q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+          });
+          if (q.p !== undefined) {
+            window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + (q.p || '') +
+              (q.q ? ('?' + q.q) : '') +
+              l.hash
+            );
+          }
+        }
+      }(window.location))
+    </script>
+<!-- End Single Page Apps for GitHub Pages --><body style="height: 100%"><div id="root" style="height: 100%"></div><script type="text/javascript" src="vendor.3d80b231d7c202bdc93a.js"></script><script type="text/javascript" src="app.1afd9bb510498c82e50a.js"></script></body></html>
