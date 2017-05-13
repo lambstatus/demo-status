@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>MyService Status - Incident History</title>
+        <link>https://lambstatus.github.io/demo-status</link>
+        <description></description>
+        <lastBuildDate>Sat, 13 May 2017 08:14:01 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Feed for Node.js</generator>
+        <item>
+            <title><![CDATA[Network maintenance]]></title>
+            <link>https://lambstatus.github.io/demo-status/maintenances/7pEQuSc083Rv</link>
+            <guid>https://lambstatus.github.io/demo-status/maintenances/7pEQuSc083Rv</guid>
+            <pubDate>Sun, 14 May 2017 06:45:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><small>May 13, 2017, 06:45 UTC</small><br><strong>Scheduled</strong> - We will perform network maintenance. Brief customer service interruption is expected from this maintenance.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[DNS resolution issues]]></title>
+            <link>https://lambstatus.github.io/demo-status/incidents/bqoDstalneID</link>
+            <guid>https://lambstatus.github.io/demo-status/incidents/bqoDstalneID</guid>
+            <pubDate>Fri, 12 May 2017 06:50:38 GMT</pubDate>
+            <content:encoded><![CDATA[<p><small>May 13, 2017, 06:50 UTC</small><br><strong>Monitoring</strong> - We are observing normal traffic volume and will continue to monitor. Some users may still be affected while DNS changes propagate.</p><p><small>May 13, 2017, 06:42 UTC</small><br><strong>Monitoring</strong> - We have migrated to an unaffected DNS provider. Some users may experience problems with cached results as the change propagates.</p><p><small>May 13, 2017, 06:41 UTC</small><br><strong>Investigating</strong> - We are investigating DNS resolution issues.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Delayed webhook deliveries]]></title>
+            <link>https://lambstatus.github.io/demo-status/incidents/A8fMkUJ4fiuQ</link>
+            <guid>https://lambstatus.github.io/demo-status/incidents/A8fMkUJ4fiuQ</guid>
+            <pubDate>Fri, 12 May 2017 06:41:14 GMT</pubDate>
+            <content:encoded><![CDATA[<p><small>May 13, 2017, 06:41 UTC</small><br><strong>Resolved</strong> - Everything operating normally.</p><p><small>May 13, 2017, 06:40 UTC</small><br><strong>Investigating</strong> - We're continuing to investigate delayed webhook deliveries.</p><p><small>May 13, 2017, 06:40 UTC</small><br><strong>Investigating</strong> - We're investigating delayed webhook deliveries.</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
