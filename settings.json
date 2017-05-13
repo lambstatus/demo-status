@@ -1,7 +1,5 @@
 {
-  "InvocationURL": "https://zvizf3w876.execute-api.ap-northeast-1.amazonaws.com/prod/",
-  "StatusPageURL": "https://d1crnve02wp5qa.cloudfront.net",
-  "ServiceName": "MyService",
-  "UserPoolID": "ap-northeast-1_VF2lqIz6X",
-  "ClientID": "3t9n1clcp5h44o6i3arq303ku4"
+  "InvocationURL": "https://kagxah0tee.execute-api.ap-northeast-1.amazonaws.com/prod/",
+  "UserPoolID": "ap-northeast-1_dkkMAmikT",
+  "ClientID": "5j1ilokcr0k0qg0feadov79q0h"
 }

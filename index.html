@@ -1,12 +1,10 @@
-<!doctype html><html lang="en"><head><title>LambStatus</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"><link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue_grey-amber.min.css"><script src="https://code.getmdl.io/1.2.1/material.min.js"></script><script>try {
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico"><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"><link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue_grey-amber.min.css"><script src="https://code.getmdl.io/1.2.1/material.min.js"></script><script>try {
       x = new(this.XMLHttpRequest || ActiveXObject)('MSXML2.XMLHTTP.3.0');
-      x.open('GET', 'settings.json', 1);
+      x.open('GET', '/settings.json', 1);
       x.onreadystatechange = function () {
         if (x.readyState === 4 && x.status === 200) {
           j = JSON.parse(x.responseText);
           __LAMBSTATUS_API_URL__ = j.InvocationURL;
-          __LAMBSTATUS_STATUS_PAGE_URL__ = j.StatusPageURL;
-          __LAMBSTATUS_SERVICE_NAME__ = j.ServiceName;
           __LAMBSTATUS_USER_POOL_ID__ = j.UserPoolID;
           __LAMBSTATUS_CLIENT_ID__ = j.ClientID;
         }
@@ -14,7 +12,7 @@
       x.send()
     } catch (e) {
       window.console && console.log(e);
-    }</script><script src="dialog-polyfill.js"></script><!-- Start Single Page Apps for GitHub Pages --><script type="text/javascript">// Single Page Apps for GitHub Pages
+    }</script><script src="/dialog-polyfill.js"></script><!-- Start Single Page Apps for GitHub Pages --><script type="text/javascript">// Single Page Apps for GitHub Pages
       // https://github.com/rafrex/spa-github-pages
       // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
       // ----------------------------------------------------------------------
@@ -40,4 +38,4 @@
             );
           }
         }
-      }(window.location))</script><!-- End Single Page Apps for GitHub Pages --><link rel="stylesheet" type="text/css" href="dialog-polyfill.css"><link rel="shortcut icon" href="favicon.ico"><link href="app.b237f02e8c0bfcea8b13d9c1847526eb.css" rel="stylesheet"></head><body style="height: 100%"><div id="root" style="height: 100%"></div><script type="text/javascript" src="vendor.eef8e5e211319a6e1ce9.js"></script><script type="text/javascript" src="app.1efb20f9aed2559b17bc.js"></script></body></html>
+      }(window.location))</script><!-- End Single Page Apps for GitHub Pages --><link rel="stylesheet" type="text/css" href="/dialog-polyfill.css"><link rel="shortcut icon" href="favicon.ico"><link href="app.e221fa47048168ba0df64e6fe05650a6.css" rel="stylesheet"></head><body style="height: 100%"><div id="root" style="height: 100%"></div><script type="text/javascript" src="vendor.0d72ff96eec7129684c0.js"></script><script type="text/javascript" src="app.2f127bb5d41ce7b10562.js"></script></body></html>
